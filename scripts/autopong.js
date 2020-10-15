@@ -159,7 +159,7 @@ class Player {
         for (var i = 0; i < Player.instances.length; i++) {
             var player = Player.instances[i];
             if (player.has_moved) {
-                ctx.clearRect(player.x, player.y - (Player.speed + 1), Player.width + 1, Player.height + 2 * Player.speed + 2);
+                ctx.clearRect(player.x - 1, player.y - (Player.speed + 1), Player.width + 1, Player.height + 2 * Player.speed + 2);
                 ctx.fillRect(player.x, player.y, Player.width, Player.height);
             }
         }

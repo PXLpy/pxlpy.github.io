@@ -1,7 +1,7 @@
 "use strict";
 ////////////////////////////////////////
 var nb_balls = 3;
-var player_speed = 3;
+var player_speed = 5;
 var ball_speed = 10;
 ////////////////////////////////////////
 window.addEventListener("load", Init);

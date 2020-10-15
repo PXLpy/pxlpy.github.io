@@ -23,9 +23,13 @@ body, html {
   border: 3px solid #129cb8;
 }
 
+.menu nav {
+  padding: 5px;
+}
+
 .menu a {
   background-color: #13879e; /* türkis */
-  padding: 10px;
+  padding: 5px 10px;
   color: black;
   transition: 0.3s;
   border-radius: 5px;
@@ -40,10 +44,6 @@ body, html {
   background-color: #129cb8; /* türkis (little bit lighter) */
   color: black;
   text-decoration: none;
-}
-
-.menu br {
-  margin-bottom: 20px;
 }
 
 

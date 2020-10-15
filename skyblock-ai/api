@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PXLpy Home</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="icon" href="/images/icon.png" type="image/icon type">
+  </head>
+  <body>
+    <div class="menu">
+      <a href="/pxlpy">PXLpy</a>
+      <a href="/skyblock-ai">Skyblock AI</a>
+      <a href="/skyblock-ai/docs">Skyblock AI DOCS</a>
+    </div>
+    <h1>Skyblock AI's API's</h1>
+  </body>
+</html>

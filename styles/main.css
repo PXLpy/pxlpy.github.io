@@ -18,8 +18,8 @@ body, html {
 
 .menu {
   background-color: #13879e; /* türkis */
-  margin: 5px;
-  padding: 12px;
+  margin: 1px;
+  padding: 5px;
   border: 3px solid #129cb8;
 }
 
@@ -29,10 +29,11 @@ body, html {
 
 .menu a {
   background-color: #13879e; /* türkis */
-  padding: 5px 10px;
+  padding: 2px 5px;
   color: black;
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 10px;
+  white-space: nowrap;
 }
 
 .menu a:link, .menu a:visited {

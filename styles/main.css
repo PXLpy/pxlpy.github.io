@@ -42,6 +42,11 @@ body, html {
   text-decoration: none;
 }
 
+.menu br {
+  padding: 10px;
+}
+
+
 h1 {
   text-align: center;
 }

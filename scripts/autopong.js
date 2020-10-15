@@ -29,7 +29,7 @@ function updateSize() {
     canvas.height = mainHeight;
     global_speed = (mainHeight * mainWidth) / (1.2 * 1e6);
     Ball.speed = ball_speed * global_speed;
-    Ball.size = mainWidth * 0.02;
+    Ball.size = mainWidth * 0.03;
     Player.speed = player_speed * global_speed;
     Player.width = mainWidth * 0.02;
     Player.height = mainHeight * 0.3;
@@ -159,7 +159,7 @@ class Player {
         for (var i = 0; i < Player.instances.length; i++) {
             var player = Player.instances[i];
             if (player.has_moved) {
-                ctx.clearRect(player.x, player.y - (Player.speed + 1), Player.width, Player.height + 2 * Player.speed + 2);
+                ctx.clearRect(player.x, player.y - (Player.speed + 1), Player.width + 1, Player.height + 2 * Player.speed + 2);
                 ctx.fillRect(player.x, player.y, Player.width, Player.height);
             }
         }

@@ -1,8 +1,8 @@
 "use strict";
 ////////////////////////////////////////
 var nb_balls = 5;
-var player_speed = 10;
-var ball_speed = 20;
+var player_speed = 7;
+var ball_speed = 15;
 ////////////////////////////////////////
 window.addEventListener("load", Init);
 window.addEventListener("resize", updateSize);

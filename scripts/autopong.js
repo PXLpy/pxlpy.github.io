@@ -32,7 +32,7 @@ function updateSize() {
     Ball.size = mainWidth * 0.05;
     Player.speed = player_speed * global_speed;
     Player.width = mainWidth * 0.05;
-    Player.height = meinHeight * 0.3;
+    Player.height = mainHeight * 0.3;
     for (var i = 0; i < Player.instances.length; i++) {
         Player.instances[i].replace();
     }

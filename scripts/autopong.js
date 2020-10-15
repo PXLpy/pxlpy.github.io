@@ -22,6 +22,7 @@ function Init() {
 function updateSize() {
     mainHeight = canvas.innerHeight;
     mainWidth = canvas.innerWidth;
+    console.log("SIZE:" + mainHeight + "/" + mainWidth);
     canvas.width = mainWidth;
     canvas.height = mainHeight;
     global_speed = (mainHeight * mainWidth) / (1.2 * 1e6);
@@ -183,7 +184,7 @@ class Ball {
         this.lastX = this.x;
         this.lastY = this.y;
         this.color = "hsl(" + (Math.floor(Ball.hueGap * Ball.instances.length)) + ",70%,60%)";
-        console.log(this.color);
+        // console.log(this.color);
     }
     Tick() {
         if (this.vx > 0) {

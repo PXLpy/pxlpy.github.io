@@ -20,13 +20,16 @@ function Init() {
     Tick();
 }
 function updateSize() {
-    mainHeight = window.innerHeight;
-    mainWidth = window.innerWidth;
+    mainHeight = canvas.innerHeight;
+    mainWidth = canvas.innerWidth;
     canvas.width = mainWidth;
     canvas.height = mainHeight;
     global_speed = (mainHeight * mainWidth) / (1.2 * 1e6);
     Ball.speed = ball_speed * global_speed;
     Player.speed = player_speed * global_speed;
+    for (var i = 0; i < Player.instances.length; i++) {
+        Player.instances[i].resize();
+    }
 }
 function Tick() {
     Ball.TickAll();
@@ -67,6 +70,14 @@ class Player {
             this.x = mainWidth - (Player.padding + Player.width);
         }
         Player.instances.push(this);
+    }
+    resize(){
+        if (this.type === PTYPE.LEFT) {
+            this.x = Player.padding;
+        }
+        else {
+            this.x = mainWidth - (Player.padding + Player.width);
+        }
     }
     Tick() {
         var closest = null;

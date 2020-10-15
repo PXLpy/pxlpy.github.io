@@ -29,7 +29,7 @@ function updateSize() {
     Ball.speed = ball_speed * global_speed;
     Player.speed = player_speed * global_speed;
     for (var i = 0; i < Player.instances.length; i++) {
-        Player.instances[i].resize();
+        Player.instances[i].replace();
     }
 }
 function Tick() {
@@ -72,7 +72,7 @@ class Player {
         }
         Player.instances.push(this);
     }
-    resize(){
+    replace(){
         if (this.type === PTYPE.LEFT) {
             this.x = Player.padding;
         }

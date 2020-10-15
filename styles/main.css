@@ -12,6 +12,7 @@
 body, html {
   background-color: #343434; /* dark/grey */
   color: white;
+  margin: 5px;
 }
 
 
@@ -25,6 +26,8 @@ body, html {
   background-color: #13879e; /* türkis */
   padding: 10px;
   color: black;
+  transition: 0.3s;
+  border-radius: 5px;
 }
 
 .menu a:link, .menu a:visited {
@@ -35,6 +38,6 @@ body, html {
 .menu a:hover {
   background-color: #129cb8; /* türkis (little bit lighter) */
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 

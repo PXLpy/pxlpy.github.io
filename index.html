@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="icon" href="/images/icon.png" type="image/icon type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <script src="/scripts/autopong.js"></script>
     <style>
       .scores {
         position: fixed;
@@ -55,10 +54,8 @@
       </tbody>
     </table>
     <br />
-    <canvas class="game" id="game">
-      <span class="scores" id="score1">0</span>
-      <span> - </span>
-      <span class="scores" id="score2">0</span>
-    </canvas>
+    <div class="scores"><span id="score1">0</span><span>-</span><span id="score2">0</span></div>
+    <canvas class="game"></canvas>
+    <script src="/scripts/autopong.js"></script>
   </body>
 </html>

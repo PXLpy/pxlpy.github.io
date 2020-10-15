@@ -1,19 +1,27 @@
-body {
-  background-color: #343434;
+/*
+  border-radius: 16px;
+  padding: 0.01em 16px;
+  border-bottom: 1px solid #ccc !important;
+*/
+
+body html {
+  background-color: #343434; /* dark/grey */
   color: white;
 }
 
 
 .menu {
-  background-color: #13879e;
+  background-color: #13879e; /* türkis */
+  padding: 10px;
+  border: 1px solid #129cb8;
 }
 
 .menu a {
-  background-color: #13879e;
+  background-color: #13879e; /* türkis */
   color: black;
 }
 
 .menu a:hover {
-  background-color: #129cb8;
+  background-color: #129cb8; /* türkis (little bit lighter) */
   color: black;
 }

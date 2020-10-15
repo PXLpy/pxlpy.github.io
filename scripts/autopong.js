@@ -29,7 +29,10 @@ function updateSize() {
     canvas.height = mainHeight;
     global_speed = (mainHeight * mainWidth) / (1.2 * 1e6);
     Ball.speed = ball_speed * global_speed;
+    Ball.size = mainWidth * 0.05;
     Player.speed = player_speed * global_speed;
+    Player.width = mainWidth * 0.05;
+    Player.height = meinHeight * 0.3;
     for (var i = 0; i < Player.instances.length; i++) {
         Player.instances[i].replace();
     }

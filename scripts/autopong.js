@@ -1,8 +1,8 @@
 "use strict";
 ////////////////////////////////////////
-var nb_balls = 5;
-var player_speed = 1;
-var ball_speed = 5;
+var nb_balls = 3;
+var player_speed = 3;
+var ball_speed = 10;
 ////////////////////////////////////////
 window.addEventListener("load", Init);
 window.addEventListener("resize", updateSize);
@@ -21,7 +21,7 @@ function Init() {
 }
 function updateSize() {
     mainWidth = window.innerWidth;
-    mainHeight = window.innerHeight * 0.9;
+    mainHeight = window.innerHeight * 0.8;
     //mainWidth = canvas.width;
     //mainHeight = canvas.height;
     console.log("SIZE:" + mainHeight + "/" + mainWidth);

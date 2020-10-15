@@ -7,7 +7,7 @@ var ball_speed = 20;
 window.addEventListener("load", Init);
 window.addEventListener("resize", updateSize);
 
-var global_speed: number, mainHeight: number, mainWidth: number;
+var global_speed, mainHeight, mainWidth;
 var canvas;
 var players = [];
 var score1 = 0, score2 = 0;

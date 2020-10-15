@@ -5,6 +5,30 @@
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="icon" href="/images/icon.png" type="image/icon type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="/scripts/autopong.js"></script>
+    <style>
+      .scores {
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: #FFF;
+        opacity: .8;
+        font-family: monospace;
+        font-size: 3em;
+
+        span {
+          margin: 10px;
+        }
+      }
+      .game {
+        background: $bg-color-from;
+        background: linear-gradient(to bottom, $bg-color-from, $bg-color-to, $bg-color-from);
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
   </head>
   <body>
     <div class="menu">
@@ -30,5 +54,11 @@
         </tr>
       </tbody>
     </table>
+    <br />
+    <canvas id="game">
+      <span id="score1">0</span>
+      <span> - </span>
+      <span id="score2">0</span>
+    </canvas>
   </body>
 </html>

@@ -19,7 +19,8 @@ body, html {
 .menu {
   background-color: #13879e; /* türkis */
   margin: 5px;
-  border: 1px solid #129cb8;
+  padding: 12px;
+  border: 3px solid #129cb8;
 }
 
 .menu a {
@@ -41,3 +42,10 @@ body, html {
   text-decoration: none;
 }
 
+h1 {
+  text-align: center;
+}
+
+.group {
+  border-left: 4px solid #454545 !important;
+}

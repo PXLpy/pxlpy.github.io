@@ -27,6 +27,7 @@
         background: linear-gradient(to bottom, $bg-color-from, $bg-color-to, $bg-color-from);
         margin: 0;
         overflow: hidden;
+        width: 100%;
       }
     </style>
   </head>
@@ -54,10 +55,10 @@
       </tbody>
     </table>
     <br />
-    <canvas id="game">
-      <span id="score1">0</span>
+    <canvas class="game" id="game">
+      <span class="scores" id="score1">0</span>
       <span> - </span>
-      <span id="score2">0</span>
+      <span class="scores" id="score2">0</span>
     </canvas>
   </body>
 </html>

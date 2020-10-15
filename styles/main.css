@@ -36,7 +36,7 @@ body, html {
   color: black;
 }
 
-.menu a:hover {
+.menu a:hover, .menu a.active {
   background-color: #129cb8; /* türkis (little bit lighter) */
   color: black;
   text-decoration: none;

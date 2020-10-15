@@ -1,1 +1,19 @@
+body {
+  background-color: #343434;
+  color: white;
+}
 
+
+.menu {
+  background-color: #13879e;
+}
+
+.menu a {
+  background-color: #13879e;
+  color: black;
+}
+
+.menu a:hover {
+  background-color: #129cb8;
+  color: black;
+}

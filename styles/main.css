@@ -24,12 +24,12 @@ body, html {
 }
 
 .menu nav {
-  padding: 5px;
+  padding: 5px 1px;
 }
 
 .menu a {
   background-color: #13879e; /* türkis */
-  padding: 2px 5px;
+  padding: 0px 5px;
   color: black;
   transition: 0.3s;
   border-radius: 10px;

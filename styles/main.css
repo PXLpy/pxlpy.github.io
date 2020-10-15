@@ -17,17 +17,19 @@ body, html {
 
 .menu {
   background-color: #13879e; /* türkis */
-  padding: 10px;
+  margin: 5px;
   border: 1px solid #129cb8;
 }
 
 .menu a {
   background-color: #13879e; /* türkis */
+  padding: 10px;
   color: black;
 }
 
-.menu a:link {
+.menu a:link, .menu a:visited {
   text-decoration: none;
+  color: black;
 }
 
 .menu a:hover {
@@ -36,7 +38,3 @@ body, html {
   text-decoration: underline;
 }
 
-a:visited {
-  text-decoration: none;
-  color: black;
-}

@@ -2,9 +2,14 @@
   border-radius: 16px;
   padding: 0.01em 16px;
   border-bottom: 1px solid #ccc !important;
+
+  margin
+  border
+  padding
+  content
 */
 
-body html {
+body, html {
   background-color: #343434; /* dark/grey */
   color: white;
 }
@@ -21,7 +26,17 @@ body html {
   color: black;
 }
 
+.menu a:link {
+  text-decoration: none;
+}
+
 .menu a:hover {
   background-color: #129cb8; /* türkis (little bit lighter) */
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: none;
   color: black;
 }

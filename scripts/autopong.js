@@ -20,11 +20,13 @@ function Init() {
     Tick();
 }
 function updateSize() {
-    //mainHeight = window.innerHeight;
-    //mainWidth = window.innerWidth;
-    mainWidth = canvas.width;
-    mainHeight = canvas.height;
+    mainWidth = window.innerWidth;
+    mainHeight = window.innerHeight * 0.9;
+    //mainWidth = canvas.width;
+    //mainHeight = canvas.height;
     console.log("SIZE:" + mainHeight + "/" + mainWidth);
+    canvas.width = mainWidth;
+    canvas.height = mainHeight;
     global_speed = (mainHeight * mainWidth) / (1.2 * 1e6);
     Ball.speed = ball_speed * global_speed;
     Player.speed = player_speed * global_speed;

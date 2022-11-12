@@ -1,0 +1,1 @@
+import{_ as o}from"./NavMenu.vue_vue_type_script_setup_true_lang.298d1fb1.js";import{m as t,b as n,e,f as c,p as r,o as _}from"./entry.d891d953.js";const l={},d={class:""};function f(s,m){const a=o;return _(),n("div",null,[e("aside",d,[c(a)]),e("main",null,[r(s.$slots,"default")])])}const p=t(l,[["render",f]]);export{p as default};

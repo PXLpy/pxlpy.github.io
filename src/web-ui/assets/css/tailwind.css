@@ -1,0 +1,18 @@
+@tailwind base;
+
+@layer base {
+    html {
+        @apply overflow-y-scroll text-white scroll-smooth bg-gray;
+    }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.centered {
+    @apply absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%];
+}
+
+.centered-x {
+    @apply absolute left-[50%] translate-x-[-50%];
+}

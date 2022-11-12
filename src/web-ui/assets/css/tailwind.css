@@ -2,7 +2,7 @@
 
 @layer base {
     html {
-        @apply overflow-y-scroll text-white scroll-smooth bg-gray;
+        @apply overflow-hidden text-white scroll-smooth bg-gray;
     }
 }
 
